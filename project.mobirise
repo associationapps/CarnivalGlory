@@ -45,6 +45,83 @@
       "components": [
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff",
+              "font-size": "20px"
+            },
+            "SMALL": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "font-size": "22px",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "20px",
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-a",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#000080"
+          },
+          "title": "Sail Away<br>With Linda &amp; Raiford&nbsp;",
+          "meta": "The untold story."
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "center",
+              "color": "#b8312f"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#b8312f"
+            }
+          },
+          "_anchor": "header4-7",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/06af5ccc-56ac-410a-9dad-5193810cbc26x2500w-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/KbY2WfKQjBE?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "overlay": false,
+            "overlayColor": "#000080",
+            "overlayOpacity": 0.5
+          },
+          "title": "Sail-Away-To-Belieze",
+          "text": "<b>With Linda &amp; Raiford</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
             },
@@ -97,7 +174,7 @@
             "showBrand": false,
             "hideButtons": true,
             "sticky": false,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
             "bgColor": "#000080",
             "fontSize": 0.75,
@@ -129,39 +206,6 @@
           "_anchor": "menu-b"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#ffffff",
-              "font-size": "20px"
-            },
-            "SMALL": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "font-size": "24px"
-            },
-            ".mbr-section-subtitle": {
-              "font-size": "20px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-a",
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#000080"
-          },
-          "title": "Sail Away<br>With Linda &amp; Raiford&nbsp;",
-          "meta": "The untold story."
-        },
-        {
           "_name": "footer1",
           "_anchor": "footer1-2",
           "_params": {
@@ -182,48 +226,6 @@
               "color": "#ffffff"
             }
           }
-        },
-        {
-          "_inherit": "header1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header4",
-          "_styles": {
-            ".mbr-section-lead": {
-              "text-align": "center",
-              "color": "#b8312f"
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "color": "#b8312f"
-            }
-          },
-          "_anchor": "header4-7",
-          "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/06af5ccc-56ac-410a-9dad-5193810cbc26x2500w-2000x1500.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/KbY2WfKQjBE?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "overlay": false,
-            "overlayColor": "#000080",
-            "overlayOpacity": 0.5
-          },
-          "title": "Sail-Away-To-Belieze",
-          "text": "<b>With Linda &amp; Raiford</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         }
       ]
     },
@@ -296,7 +298,7 @@
             "showBrand": false,
             "hideButtons": true,
             "sticky": false,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
             "bgColor": "#000080",
             "fontSize": 0.75,
