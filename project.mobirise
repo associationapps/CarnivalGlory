@@ -98,7 +98,7 @@
           "_name": "menu",
           "_anchor": "menu-b",
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "hideButtons": true,
             "sticky": false,
@@ -323,7 +323,7 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "hideButtons": true,
             "sticky": false,
@@ -546,7 +546,7 @@
           },
           "_name": "menu",
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "hideButtons": true,
             "sticky": false,
